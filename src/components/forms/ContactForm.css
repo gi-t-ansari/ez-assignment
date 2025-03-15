@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
 .input-container {
   display: flex;
 }
@@ -11,6 +13,7 @@
   opacity: 1;
   margin-right: 15px;
   font-size: large;
+  font-family: "Exo 2", sans-serif;
 }
 
 .submit-button {
@@ -23,16 +26,7 @@
   padding: 11px 10px;
   font-size: large;
   color: #ffffff;
-}
-
-.error-message {
-  color: #ef4444;
-  font-size: medium;
-}
-
-.success-message {
-  color: #22c55e;
-  font-size: medium;
+  font-family: "Exo 2", sans-serif;
 }
 
 @media screen and (max-width: 426px) {

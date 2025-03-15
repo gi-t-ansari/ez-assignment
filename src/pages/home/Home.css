@@ -20,8 +20,8 @@
 .main-heading {
   font-size: 28px;
   color: #112949;
-  font: normal;
   margin-top: 2rem;
+  font-weight: 450;
 }
 
 .service-cards-container {
@@ -31,8 +31,10 @@
 }
 
 .main-description {
-  font-size: 22px;
+  font-size: 21px;
   margin-top: 2rem;
+  color: #102849;
+  margin-bottom: 1rem;
 }
 
 .form-container-pc {
@@ -56,6 +58,7 @@
 @media screen and (max-width: 426px) {
   .home-container {
     position: relative;
+    padding: 30px 20px;
   }
   .main-logo-container {
     width: 222px;
